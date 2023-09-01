@@ -1,41 +1,50 @@
+
+
+
 img.allpc {
-    width: 128px;
-    height: 128px;
-    object-fit: none;
-    object-position: 5px 10%;
+  width: 128px;
+  height: 128px;
+  object-fit: none;
+  object-position: 5px 10%;
+}
+    * {
+  box-sizing: border-box;
+}
+
+.discord {
+  background-color: #1590f5;
+  padding: 20px;
+  float: left;
+  width: 20%; 
+  position: absolute;
+  top: 30%;
+  right: 40%;
+}
+
+.twitter {
+  background-color: #2a139e;
+  padding: 20px;
+  float: left;
+  width: 20%; 
+  position: absolute;
+  top: 50%;
+  right: 40%;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .discord, .twitter {
+    width: 100%;
   }
-      * {
-    box-sizing: border-box;
-  }
-  
-  .discord {
-    background-color: #2196F3;
-    padding: 20px;
-    float: left;
-    width: 20%; 
-    position: absolute;
-    top: 50%;
-    right: 50%;
-  }
-  
-  .twitter {
-    background-color: #f1f1f1;
-    padding: 20px;
-    float: left;
-    width: 20%; 
-    position: absolute;
-    top: 50%;
-    right: 50%;
-  }
-  
-  
-  
-  @media screen and (max-width: 800px) {
-    .discord, .twitter {
-      width: 100%;
-    }
-  }
-    a {
-    border: 2px solid powderblue;
-    padding: 3px;
-  }
+}
+  a {
+  border: 2px solid powderblue;
+  padding: 3px;
+}
+
+
+.disco {
+  position: absolute;
+
+}

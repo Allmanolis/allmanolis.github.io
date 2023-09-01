@@ -1,21 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Allmanolis</title>
 <body>
 <style>
-  p {
+    * {
+  box-sizing: border-box;
+}
+
+.discord {
+  background-color: #2196F3;
+  padding: 20px;
+  float: left;
+  width: 20%; 
+}
+
+.twitter {
+  background-color: #f1f1f1;
+  padding: 20px;
+  float: left;
+  width: 60%; 
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .discord, .twitter {
+    width: 100%;
+  }
+}
+  a {
   border: 2px solid powderblue;
-  padding: 30px;
+  padding: 3px;
 }
 </style>
 </head>
 
-<h1 style="border: 2px solid DodgerBlue;">Allmanolis Links</h1>
-<p>test</p>
+<h1 style="border: 2px solid DodgerBlue;padding: 30px;font-size: 10vw;">Allmanolis Links</h1>
+<a>test</a>
+<img src="allcomputer.jpg" style="width:10%;">
 
+
+<div class="discord">
+    <p><a style="font-size: 2vw" href="https://discord.gg/TxBq6dNj5m">Discord</a></p>
+  </div>
   
+  <div class="twitter">
+    <p><a style="font-size: 2vw" href="https://twitter.com/allmanolis">Twitter</a></p>
+  </div>
+  
+
+
 </html>
 </body>
-
-
